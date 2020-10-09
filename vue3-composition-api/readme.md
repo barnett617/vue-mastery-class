@@ -282,3 +282,5 @@ export default {
 这种方式的优势在于代码更少、接近函数写法、灵活性更强
 
 课程地址：https://www.vuemastery.com/courses/vue-3-essentials/why-the-composition-api
+
+关于composition api的单独在线文档：https://composition-api.vuejs.org/#summary
