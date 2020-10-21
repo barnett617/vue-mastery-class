@@ -17,3 +17,17 @@
 watchEffect 作为参数的`回调函数`会当响应式机制在追踪它的依赖时，在下一个运行周期（next tick）运行，并且在依赖改变时重新执行
 
 当你想专门观察是什么触发了观察者执行，可以使用watch函数
+
+### 观察多个响应式引用
+
+```js
+watch([firstName, lastName], () => {
+
+})
+```
+
+```js
+watch([firstName, lastName], ([newFirst, newLast], [oldFirst, oldLast]) => {
+  
+})
+```
